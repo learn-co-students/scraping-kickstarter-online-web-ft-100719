@@ -1,5 +1,5 @@
 describe "#create_project_hash" do
-
+# projects: kickstarter.css("li.project.grid_4")
   it "can be called on with no errors" do
     expect {create_project_hash}.to_not raise_error
   end
